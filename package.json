@@ -1,7 +1,7 @@
 {
-  "name": "browserify-istanbul",
+  "name": "experimental-browserify-istanbul",
   "version": "0.2.1",
-  "description": "A browserify transform for the istanbul code coverage tool",
+  "description": "An experimental version of browserify-istanbul that works on sourcemaps.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/devongovett/browserify-istanbul.git"
+    "url": "git://github.com/ezequiel/browserify-istanbul.git"
   },
   "keywords": [
     "browserify",
@@ -21,11 +21,11 @@
   "author": "Devon Govett <devongovett@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/devongovett/browserify-istanbul/issues"
+    "url": "https://github.com/ezequiel/browserify-istanbul/issues"
   },
-  "homepage": "https://github.com/devongovett/browserify-istanbul",
+  "homepage": "https://github.com/ezequiel/browserify-istanbul",
   "dependencies": {
-    "istanbul": "~0.3.6",
+    "istanbul": "git://github.com/gotwarlost/istanbul.git#source-map",
     "minimatch": "^2.0.0",
     "through": "^2.3.4"
   },
